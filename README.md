@@ -55,6 +55,10 @@ git commit -m "first"
 git remote add origin https://github.com/skobba/djangoseed
 git remote -v
 git push -u origin master
+
+#pull with overwrite
+git reset --hard origin/master
+git pull
 ```
 
 # Create VM
