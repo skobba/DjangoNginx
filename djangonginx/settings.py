@@ -80,8 +80,8 @@ WSGI_APPLICATION = 'djangonginx.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': 'clients.lawandorder.io',
-        'NAME': 'django',
+        'HOST': 'demo.skobba.net',
+        'NAME': 'djangonginx',
         'USER': 'djangouser',
         'PASSWORD': os.environ['djangopass'],
     },
