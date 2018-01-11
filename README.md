@@ -65,6 +65,15 @@ git pull
 ```
 virtualenv djangonginxenv
 source djangonginxenv/bin/activate
+
+or..
+
+vf new djangonginxenv
+vf activate djangonginxenv
+
+mkvirtualenv djangonginxenv
+vf activate djangonginxenv
+
 ```
 
 # Pip
